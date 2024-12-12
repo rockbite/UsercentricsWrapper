@@ -1,0 +1,384 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "UsercentricsWrapper",
+    "printedName": "UsercentricsWrapper",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsWrapper"
+      },
+      {
+        "kind": "Import",
+        "name": "UsercentricsUI",
+        "printedName": "UsercentricsUI",
+        "declKind": "Import",
+        "moduleName": "UsercentricsWrapper"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "UsercentricsWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UsercentricsUtill",
+        "printedName": "UsercentricsUtill",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showConcentDialog",
+            "printedName": "showConcentDialog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UsercentricsWrapper@objc(cs)UsercentricsUtill(im)showConcentDialog",
+            "mangledName": "$s19UsercentricsWrapper0A5UtillC17showConcentDialogyyF",
+            "moduleName": "UsercentricsWrapper",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initUsercentricsSDK",
+            "printedName": "initUsercentricsSDK(rulesetId:isDebug:consentMediation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UsercentricsWrapper@objc(cs)UsercentricsUtill(im)initUsercentricsSDKWithRulesetId:isDebug:consentMediation:",
+            "mangledName": "$s19UsercentricsWrapper0A5UtillC04initA3SDK9rulesetId7isDebug16consentMediationySS_S2btF",
+            "moduleName": "UsercentricsWrapper",
+            "objc_name": "initUsercentricsSDKWithRulesetId:isDebug:consentMediation:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isGDPR",
+            "printedName": "isGDPR()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UsercentricsWrapper@objc(cs)UsercentricsUtill(im)isGDPR",
+            "mangledName": "$s19UsercentricsWrapper0A5UtillC6isGDPRSbyF",
+            "moduleName": "UsercentricsWrapper",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanUserSession",
+            "printedName": "cleanUserSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UsercentricsWrapper@objc(cs)UsercentricsUtill(im)cleanUserSession",
+            "mangledName": "$s19UsercentricsWrapper0A5UtillC16cleanUserSessionyyF",
+            "moduleName": "UsercentricsWrapper",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setListener",
+            "printedName": "setListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKInitListener",
+                "printedName": "any UsercentricsWrapper.SDKInitListener",
+                "usr": "c:@M@UsercentricsWrapper@objc(pl)SDKInitListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UsercentricsWrapper@objc(cs)UsercentricsUtill(im)setSDKInitListener:",
+            "mangledName": "$s19UsercentricsWrapper0A5UtillC11setListeneryyAA07SDKInitE0_pF",
+            "moduleName": "UsercentricsWrapper",
+            "objc_name": "setSDKInitListener:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsUtill",
+                "printedName": "UsercentricsWrapper.UsercentricsUtill",
+                "usr": "c:@M@UsercentricsWrapper@objc(cs)UsercentricsUtill"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UsercentricsWrapper@objc(cs)UsercentricsUtill(im)init",
+            "mangledName": "$s19UsercentricsWrapper0A5UtillCACycfc",
+            "moduleName": "UsercentricsWrapper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UsercentricsWrapper@objc(cs)UsercentricsUtill",
+        "mangledName": "$s19UsercentricsWrapper0A5UtillC",
+        "moduleName": "UsercentricsWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKInitListener",
+        "printedName": "SDKInitListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sdkDidInitialize",
+            "printedName": "sdkDidInitialize(success:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UsercentricsWrapper@objc(pl)SDKInitListener(im)sdkDidInitializeWithSuccess:error:",
+            "mangledName": "$s19UsercentricsWrapper15SDKInitListenerP16sdkDidInitialize7success5errorySb_s5Error_pSgtF",
+            "moduleName": "UsercentricsWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : UsercentricsWrapper.SDKInitListener>",
+            "sugared_genericSig": "<Self where Self : UsercentricsWrapper.SDKInitListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@UsercentricsWrapper@objc(pl)SDKInitListener",
+        "mangledName": "$s19UsercentricsWrapper15SDKInitListenerP",
+        "moduleName": "UsercentricsWrapper",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gevorgkopalyan\/Documents\/work\/xcode\/UsercentricsWrapper\/UsercentricsWrapper\/UsercentricsUtill.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 34,
+      "value": "\"com.rockbite.UsercentricsWrapper\""
+    },
+    {
+      "filePath": "\/Users\/gevorgkopalyan\/Documents\/work\/xcode\/UsercentricsWrapper\/UsercentricsWrapper\/UsercentricsUtill.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 6,
+      "value": "\"main\""
+    },
+    {
+      "filePath": "\/Users\/gevorgkopalyan\/Documents\/work\/xcode\/UsercentricsWrapper\/UsercentricsWrapper\/UsercentricsUtill.swift",
+      "kind": "BooleanLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

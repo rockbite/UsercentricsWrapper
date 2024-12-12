@@ -1,0 +1,11 @@
+framework module UsercentricsWrapper {
+  umbrella header "UsercentricsWrapper.h"
+  export *
+
+  module * { export * }
+}
+
+module UsercentricsWrapper.Swift {
+  header "UsercentricsWrapper-Swift.h"
+  requires objc
+}

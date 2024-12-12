@@ -1,0 +1,45 @@
+package: com.rockbite.engine.bindings.ssercentricswrapper
+include: 
+    - foundation
+framework: UsercentricsWrapper
+clang_args: ['-x', 'objective-c']
+headers:
+    - UsercentricsWrapper.h
+    - UsercentricsWrapper-Swift.h
+typedefs: {}
+enums: 
+    
+classes:
+    #TestLogging: {}
+    UsercentricsUtill:
+        methods:
+            '-initUsercentricsSDKWithRulesetId:isDebug:consentMediation:':
+                #trim_after_first_colon: true
+                name: initUsercentricsSDKWithRulesetId
+            '-setSDKInitListenerWith_listener:':
+                name: setSDKInitListener
+    
+protocols:
+     SDKInitListener:
+        methods:
+            '-sdkDidInitializeWithSuccess:error:':
+                #trim_after_first_colon: true
+                name: sdkDidInitialize
+
+functions:
+    # Make sure we don't miss any functions if new ones are introduced in a later version
+    (APS.*):
+        class: FUNCTIONSFIXME
+        name: 'Function__#{g[0]}'
+
+values:
+    # Make sure we don't miss any values if new ones are introduced in a later version
+    k?(APS.*):
+        class: VALUEFIXME
+        name: 'Value__#{g[0]}'
+
+constants:
+    # Make sure we don't miss any constants if new ones are introduced in a later version
+    k?(APS.*):
+        class: CONSTFIXME
+        name: 'Constant__#{g[0]}'
