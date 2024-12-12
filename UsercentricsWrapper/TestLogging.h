@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <HellowWorld/HellowWorld-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

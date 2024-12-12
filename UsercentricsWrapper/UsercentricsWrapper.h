@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UsercentricsWrapper/TestLogging.h>
 //! Project version number for UsercentricsWrapper.
 FOUNDATION_EXPORT double UsercentricsWrapperVersionNumber;
 
