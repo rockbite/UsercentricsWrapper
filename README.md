@@ -1,7 +1,7 @@
 # Usercentrics SDK Wrapper for iOS
 
 ## Overview
-This project provides a **UsercentricsWrapper** for integrating the [Usercentrics SDK](https://usercentrics.com/docs/apps/intro/) into iOS applications developed using LibGDX and RoboVM. The wrapper acts as a bridge between Java and the Usercentrics iOS SDK with handling SDK-related events via a delegate or callback.
+This project provides a **UsercentricsWrapper** for integrating the [Usercentrics SDK](https://usercentrics.com/docs/apps/intro/) into iOS applications developed using LibGDX and MobiVM. The wrapper acts as a bridge between Java and the Usercentrics iOS SDK with handling SDK-related events via a delegate or callback.
 
 ## Installation
 
@@ -23,3 +23,6 @@ BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 ### Step 3: Add the Framework to Your Project
 Add `UsercentricsWrapper.framework`, `UsercentricsUI.framework`, and `Usercentrics.framework` into the project.
 Copy the Resource Bundle into the project
+
+### Step 4: Generate MobiVM bindings 
+Navigate to bro-gen folder and update or generate bindings for MobiVM
